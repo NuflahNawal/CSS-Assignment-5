@@ -1,26 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
 }
 
-header{
+header {
     width: 100%;
     height: 200px;
-    /* cursor: pointer; */
-    /* background-color: aquamarine; */
+    cursor: pointer;
 }
 
-nav{
+nav {
     display: inline-block;
 }
 
-li{
+li {
     display: inline-block;
     margin-left: 50px;
     position: absolute;
@@ -28,207 +30,214 @@ li{
     left: 300px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
 
-.container{
+.container {
     margin: 50px;
     margin-left: 150px;
 }
 
-.logo{
+.logo {
     border-radius: 50%;
     cursor: pointer;
 }
 
-.btn1{
+.btn1 {
     width: 150px;
     height: 50px;
     border: 2px solid white;
     border-radius: 30px;
     background-color: rgb(13, 200, 200);
     color: white;
-    position:absolute;
+    position: absolute;
     top: 80px;
     right: 200px;
     cursor: pointer;
 }
 
-.banner{
+.banner {
     cursor: pointer;
 }
 
-.container1{
+.banner img {
+    width: 100%;
+}
+
+.container1 {
     cursor: pointer;
     background-color: white;
     display: inline-block;
     position: relative;
+    width: 100%;
 }
 
-.backimg1{
+.backimg1 {
     width: 100%;
     height: 1000px;
     opacity: 0.2;
     display: block;
 }
 
-.h1{
+.h1 {
     font-size: 2.2rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 50px;
-    margin-left: 500px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.cupcake{
+.cupcake {
     position: absolute;
     top: 250px;
     left: 150px;
 }
 
-.cupcakeimg{
+.cupcakeimg {
     border-radius: 20px;
-    width: 270px;    
+    width: 270px;
 }
 
-.p1{
+.p1 {
     font-size: 1.6rem;
     margin-left: 60px;
     padding: 20px;
-
 }
 
-.macarons{
+.macarons {
     position: absolute;
     top: 250px;
     left: 550px;
 }
 
-.macaronsimg{
+.macaronsimg {
     border-radius: 20px;
-    width: 250px;    
+    width: 250px;
 }
 
-.p2{
+.p2 {
     font-size: 1.6rem;
     margin-left: 60px;
     padding: 20px;
-
 }
 
-.cake{
+.cake {
     position: absolute;
     top: 250px;
     right: 150px;
 }
 
-.cakeimg{
+.cakeimg {
     border-radius: 20px;
-    width: 270px;    
+    width: 270px;
 }
 
-.p3{
+.p3 {
     font-size: 1.6rem;
     margin-left: 100px;
     padding: 20px;
 }
 
-.Croissants{
+.Croissants {
     position: absolute;
     bottom: 170px;
     left: 150px;
 }
 
-.Croissantsimg{
+.Croissantsimg {
     border-radius: 20px;
-    width: 270px;    
+    width: 270px;
 }
 
-.p4{
+.p4 {
     font-size: 1.6rem;
     margin-left: 60px;
     padding: 20px;
 }
 
-.applepie{
+.applepie {
     position: absolute;
     bottom: 170px;
     left: 550px;
 }
 
-.applepieimg{
+.applepieimg {
     border-radius: 20px;
-    width: 270px;    
+    width: 270px;
 }
 
-.p5{
+.p5 {
     font-size: 1.6rem;
     margin-left: 60px;
     padding: 20px;
 }
 
-.cheesecake{
+.cheesecake {
     position: absolute;
     bottom: 170px;
     right: 150px;
 }
 
-.cheesecakeimg{
+.cheesecakeimg {
     border-radius: 20px;
-    width: 270px;    
+    width: 270px;
 }
 
-.p6{
+.p6 {
     font-size: 1.6rem;
     margin-left: 50px;
     padding: 20px;
 }
 
-.container2{
+.container2 {
     cursor: pointer;
     background-color: rgb(81, 213, 213);
     display: inline-block;
     position: relative;
+    width: 100%;
 }
 
-.backimg2{
+.backimg2 {
     width: 100%;
     height: 900px;
     opacity: 0.2;
     display: block;
 }
 
-.box1{
+.box1 {
     border: 3px solid white;
     border-radius: 20px;
     width: 900px;
     height: 550px;
     position: absolute;
     top: 100px;
-    left: 230px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.whitecake{
+.whitecake {
     padding: 70px;
-    margin-left: 330px;
+    display: block;
+    margin: 0 auto;
 }
 
-.box1 h2{
+.box1 h2 {
     font-size: 2.5rem;
     color: white;
     text-align: center;
 }
 
-.pera1{
+.pera1 {
     color: white;
     text-align: center;
     padding: 30px;
 }
 
-.btn2{
+.btn2 {
     background-color: rgb(98, 211, 211);
     width: 180px;
     height: 50px;
@@ -236,8 +245,8 @@ a{
     border-radius: 30px;
     color: white;
     font-size: 1.2rem;
-    margin-left: 360px;
-    margin-top: 30px;
+    display: block;
+    margin: 30px auto 0 auto;
 }
 
 .box2{
@@ -340,246 +349,427 @@ a{
     right: 90px;
 }
 
-.container4{
-    cursor: pointer;
+.container4 {
+    cursor: pointer; 
 }
 
-.box3{
+.box3 {
     background-color: white;
     width: 100%;
     height: 800px;
 }
 
-.box3 .pinkcake2{
+.box3 .pinkcake2 {
     display: block;
-    margin-left: 640px;
+    margin: 50px auto 0 auto;
+}
+
+.box3 h2 { 
+    text-align: center; 
+    font-size: 2.9rem; 
+    margin-top: 30px; 
+}
+.box3 h5 { 
+    text-align: center; 
+    margin-top: 80px; 
+    font-size: 1.5rem; 
+}
+.box3 p { 
+    text-align: center; 
+    margin-top: 5px; 
+    font-size: 1.5rem; 
+}
+
+.box3 .pudding {
     margin-top: 50px;
-}
-
-.box3 h2{
     text-align: center;
-    font-size: 2.9rem;
-    margin-top: 30px;
+    display: block;
 }
 
-.box3 h5{
-    text-align: center;
-    margin-top: 80px;
-    font-size: 1.5rem;
-}
-
-.box3 p{
-    text-align: center;
-    justify-content: center;
-    margin-top: 5px;
-    font-size: 1.5rem;
-}
-
-.box3 .pudding{
-    margin-top: 50px;
-    margin-left: 620px;
-    display: inline-block;
-}
-
-.box3 .puddingimg{
+.box3 .puddingimg {
     border-radius: 50%;
     width: 120px;
 }
 
-.box3 h6{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.3rem;
+.box3 h6 { 
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 1.3rem; 
 }
 
-.container5{
+.container5 {
     cursor: pointer;
     background-color: rgb(255, 161, 194);
-    height: 800px;
+    height: auto;
+    min-height: 800px;
     width: 100%;
-    display: inline-block;
     position: relative;
 }
 
-.box4{
+.backimg4 {
     width: 100%;
-    height: 800px;
-}
-
-.container5 .backimg4{
+    height: 100%;
+    position: absolute;
     background-image: url(img/coffeecup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     opacity: 0.2;
-    display: block;    
 }
 
-.clientbox h2{
-    margin-top: 50px;
+.clientbox h2 {
+    padding-top: 50px;
     text-align: center;
     font-size: 2.5rem;
     color: white;
+    position: relative;
+    z-index: 2;
 }
 
-.box4{
+.box4 {
     border: 3px rgb(255, 161, 194) solid;
     width: 900px;
     height: 500px;
-    margin: 50px;
-    margin-left: 220px;
-}
-
-.clientbox .about1{
-    display: inline;
+    margin: 50px auto;
     position: relative;
+    z-index: 2;
 }
 
-.clientbox .pic1{
-    width: 90px;
-    border-radius: 50%;
-    display: inline;
-    position: absolute;
-    top: 45px;
-    left: 50px;
+.clientbox .about1 { 
+    display: inline; 
+    position: relative; 
 }
 
-.clientbox .content1{
-    color: white;
-    margin-left: 180px;
+.clientbox .pic1 { 
+    width: 90px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 45px; 
+    left: 50px; 
+}
+.clientbox .content1 { 
+    color: white; 
+    margin-left: 180px; 
     margin-top: 50px;
 }
 
-.clientbox .about2{
-    display: inline;
-    position: relative;
+.clientbox .about2 { 
+    display: inline; 
+    position: relative; 
 }
 
-.clientbox .pic2{
-    width: 90px;
-    border-radius: 50%;
-    display: inline;
-    position: absolute;
-    top: -130px;
-    right: 320px;
+.clientbox .pic2 { 
+    width: 90px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: -130px; 
+    right: 320px; 
 }
 
-.clientbox .content2{
-    color: white;
-    margin-left: 610px;
+.clientbox .content2 { 
+    color: white; 
+    margin-left: 610px; 
     margin-top: -130px;
 }
 
-.clientbox .about3{
-    display: inline;
-    position: relative;
+.clientbox .about3 { 
+    display: inline; 
+    position: relative; 
 }
 
-.clientbox .pic3{
+.clientbox .pic3 { 
     width: 90px;
-    border-radius: 50%;
-    display: inline;
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+}
+.clientbox .content3 { 
+    color: white; 
+    margin-left: 180px; 
+    margin-top: 100px; 
 }
 
-.clientbox .content3{
-    color: white;
-    margin-left: 180px;
-    margin-top: 100px;
+.clientbox .about4 { 
+    display: inline; 
+    position: relative; 
 }
 
-.clientbox .about4{
-    display: inline;
-    position: relative;
+.clientbox .pic4 { 
+    width: 90px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: -130px; 
+    right: 310px; 
 }
 
-.clientbox .pic4{
-    width: 90px;
-    border-radius: 50%;
-    display: inline;
-    position: absolute;
-    top: -130px;
-    right: 310px;
-}
-
-.clientbox .content4{
-    color: white;
-    margin-left: 620px;
+.clientbox .content4 { 
+    color: white; 
+    margin-left: 620px; 
     margin-top: -130px;
-}
+ }
 
-.container6{
+.container6 {
     background-color: white;
-    height: 900px;
+    height: auto;
+    min-height: 1090px;
     width: 100%;
     position: relative;
+    padding-bottom: 50px;
 }
 
-.container6 h2{
+.container6 h2 {
     font-size: 2.5rem;
-    text-align:left;
-    margin-left: 250px;
-    margin-top: 50px;
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 50px;
 }
 
-.container6 table{
+.container6 table {
     border-collapse: separate;
     border-spacing: 35px;
-    margin: 20px ;
-    margin-left: 200px;
+    margin-left: 170px;
 }
 
-.container6 table th{
-    font-size: 1.7rem;
-    color: grey;
+.container6 table th { 
+    font-size: 1.7rem; 
+    color: grey; 
+}
+.container6 td { 
+    font-size: 1.2rem; 
 }
 
-.container6 td{
-    font-size: 1.2rem;
-}
-
-.container6 .card{
+.container6 .card {
     background-color: rgb(238, 237, 237);
     height: 250px;
     width: 280px;
     border-radius: 10px;
     position: absolute;
     top: 200px;
-    right: 230px;
+    right: 150px;
 }
 
-.container6 .card h3{
-    font-size: 1.5rem;
-    margin: 30px;
+.container6 .card h3 { 
+    font-size: 1.5rem; 
+    margin: 30px; 
+}
+.container6 .card p { 
+    font-size: 1rem; 
+    color: rgb(105, 179, 209); 
+    margin-left: 30px; 
+    margin-top: 10px; 
 }
 
-.container6 .card p{
-    font-size: 1rem;
-    color: rgb(105, 179, 209);
-    margin-left: 30px;
-    margin-top: 10px;
+.container7 {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+    position: relative;
 }
 
-/* .container6 .card .p2{
-    font-size: 1rem;
-    color: skyblue;
-    margin-top: -20;
+.backimg5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/ingrediants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
 }
 
-.container6 .card .p3{
-    font-size: 1rem;
-    color: skyblue;
-    margin-top: -20; */
+.container7 .box5 {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container7 h2 { 
+    font-size: 3.5rem; 
+    text-align: center; 
+    color: white; 
+}
+.container7 .information { 
+    margin: 50px 0; 
+    text-align: center; 
+}
+
+.container7 .sub {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    opacity: 0.8;
+    color: rgb(216, 216, 216);
+    border-radius: 30px;
+    border: 2px solid rgb(221, 221, 221);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.box5 .btn3 {
+    width: 170px;
+    height: 60px;
+    background-color: skyblue;
+    border: 2px skyblue solid;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.box5 p { 
+    color: white; 
+    font-size: 1.3rem; 
+    text-align: center; 
+}
+
+.logo .pintrest { 
+    width: 80px; 
+    position: absolute; 
+    bottom: 30px; 
+    left: 48%; 
+
+}
+.logo .insta { 
+    width: 45px; 
+    position: absolute; 
+    bottom: 40px; 
+    left: 65%; 
+}
+.logo .youtube { 
+    width: 180px; 
+    position: absolute; 
+    bottom: -5px; 
+    left: 15%; 
+}
+
+.container8 {
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    min-height: 250px;
+    cursor: pointer;
+    position: relative;
+}
+
+footer {
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer-left{ 
+    display: flex; 
+    gap: 25px;
+ }
+.footer-center { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+.footer-logo { 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+}
+.footer-center p { 
+    font-size: 16px; 
+    color: #ccc; 
+    margin: 0; 
+    text-align: center; 
+}
+.footer-right { 
+    display: flex; 
+}
+footer a { 
+    color: white;
+     text-decoration: none; 
+     font-size: 15px; 
+     font-weight: 500; 
+}
+footer a:hover { 
+    color: #ffb6c1; 
 }
 
 
 
-
-
-/* @media only screen and (max-width 636px){
-    img{
-        display: none;
+@media screen and (max-width: 1024px) {
+    header { 
+        height: auto; padding: 20px; text-align: center; 
     }
-} */
+    .container { 
+        margin: 10px auto; 
+    }
+    li { 
+        position: static; margin: 20px 0; display: block; 
+    }
+    .btn1 {
+         position: static; margin: 10px auto; display: block; 
+        }
+
+    .box1 { 
+        width: 90%; 
+    }
+    .box4 { 
+        width: 95%; margin: 20px auto; 
+    }
+    
+    .container6 table { 
+        margin-left: 20px; border-spacing: 15px; 
+    }
+    .container6 .card { 
+        position: static; margin: 30px auto; 
+    }
+
+    .container7 .box5 { 
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+         height: auto; padding-bottom: 50px; 
+    }
+    .backimg1 { 
+        height: 100%; min-height: 1400px; 
+    }
+    .h1 { 
+        font-size: 1.8rem
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cupcakeimg, .macaronsimg, .cakeimg, .Croissantsimg, .applepieimg, .cheesecakeimg {
+        width: 80% !important; 
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cakecontainer {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        padding: 10px;
+    }
+
+    .cake1, .cake2, .cake3, .cake4, 
+    .cake5, .cake6, .cake7, .cake8 {
+        position: static !important; 
+        width: 45% !important;        
+        max-width: 160px;
+        height: auto;
+        margin: 5px !important;
+    }
+}
+
+        
