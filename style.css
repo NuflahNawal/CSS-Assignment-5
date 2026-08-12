@@ -35,16 +35,6 @@ img {
   margin: 0 auto;
 }
 
-/* :root {
-  --teal: #57cfc2;
-  --teal-dark: #3fb8ab;
-  --pink: #f26d85;
-  --coral-start: #f4837a;
-  --coral-end: #f4677e;
-  --grey-bg: #f3f3f3;
-  --dark: #2b2b2b;
-} */
-
 .section-title {
   text-align: center;
   font-size: 30px;
@@ -85,9 +75,6 @@ img {
 
 .btn-teal {
   color: #fff;
-}
-
-.btn-teal:hover {
 }
 
 .btn-outline-white {
