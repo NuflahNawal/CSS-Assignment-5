@@ -26,8 +26,7 @@
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-        <a href="#" class="btn btn-teal">Make an Order</a>
-      
+        <button onclick="order()"><a href="#" class="btn btn-teal">Make an Order</a></button>
 
     </div>
   </header>
@@ -44,7 +43,7 @@
         <p>Weekends: 07:30 AM – 03:00 PM</p>
       </div>
 
-      <a href="#" class="btn btn-teal">Order Sweets!</a>
+      <button onclick="order()"><a href="#" class="btn btn-teal">Order Sweets!</a></button>
     </div>
   </section>
 
@@ -99,7 +98,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
           minus nisi, nostrum commodi dignissimos officiis et quaerat
           corrupti facilis quasi.</p>
-        <a href="#" class="btn btn-outline-white">Discover More</a>
+        <a href="#" class="btn btn-outline-white">Discover More</a> 
       </div>
     </div>
   </section>
@@ -301,7 +300,7 @@
       <h2>Get Our Sweet News</h2>
       <form class="newsletter-form">
         <input type="email" placeholder="Write email and press ENTER" required>
-        <button type="submit" class="btn btn-teal">Subscribe</button>
+        <button onclick="subscribe ()" type="submit" class="btn btn-teal">Subscribe</button>
       </form>
 
       <p class="follow-label">Follow Us</p>
@@ -326,5 +325,7 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
 </body>
 </html>

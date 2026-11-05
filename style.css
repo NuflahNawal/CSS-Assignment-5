@@ -61,6 +61,24 @@ img {
 }
 
                             /* BUTTONS */
+
+.swal2-confirm {
+  background-color: rgba(50, 127, 119, 0.85);
+}
+.swal2-confirm:hover {
+  background-color: rgba(110, 239, 226, 0.85);
+}
+
+button {
+  display: inline-block;
+  border: 2px solid rgba(110, 239, 226, 0.85);
+  background-color: rgba(110, 239, 226, 0.85);
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}                            
 .btn {
   display: inline-block;
   border: 2px solid rgba(110, 239, 226, 0.85);
